@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <h1>My Profile</h1>
+    <img class="profile-picture" src="https://media.licdn.com/dms/image/D5603AQFVdd0dG3RcAg/profile-displayphoto-shrink_800_800/0/1679002309096?e=2147483647&v=beta&t=52At4kKukw9eNM62iNUBi4iHsKbQ9ka8LjAokCpnWfU" alt="Profile Picture">
+
+    <h2>About Me</h2>
+    <p>
+        Hi there! My name is DaQuan and I'm a passionate Technical Consultant. I have a strong background in JavaScript, HTML, CSS, Java, and Python. With a keen eye for detail and a love for problem-solving, I'm dedicated to delivering high-quality work in every project I undertake.
+    </p>
+
+    <button class="favButton" id="color">My Favorite Color</button>
+    <button class="favButton" id="place">My Favorite Place</button>
+    <button class="favButton" id="ritual">My Favorite Ritual</button>
+
+    <script src="profile.js"></script>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Git Bash</li>
+        <li>VS Code</li>
+    </ul>
+
+    <h2>Interests</h2>
+    <ul>
+        <li>App Development</li>
+        <li>Martial Arts</li>
+        <li>Hiking</li>
+        <li>Beach</li>
+    </ul>
+
+    <h2>Career Goals</h2>
+    <p class='career-goals'>
+        In my career, I aspire to work on cutting-edge projects that combine technology and creativity. I aim to continuously expand my skill set and stay updated with the latest industry trends. Ultimately, I strive to make a positive impact by developing innovative solutions and creating meaningful experiences for users.
+    </p>
+
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required><br>
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
